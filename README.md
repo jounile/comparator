@@ -3,3 +3,5 @@
 Creates a visual diff of two input images
 
 Scroll down to see all three images
+
+pip install photoshop-python-api
