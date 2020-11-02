@@ -2,13 +2,17 @@
 
 Creates a visual diff of two input images.
 
-Usage: 
+
+Usage:
+
 You can extract all Layer Compositions from PSD to PNG files by going to File -> Extract PSD.
-It will create a folder that you can rename if you want to put a certain version number in the dropdowns.
+
+This creates a folder that you can rename if you want to put a certain version number in the dropdowns.
 
 Comparison by quickly changing between the input images is possible also with the arrow left/right shortcut keys.
 
 Example directory contains two directories (versions) of demo images.
+
 
 
 Dependencies:
