@@ -60,6 +60,8 @@ class ComparatorApp(QMainWindow):
         self.qim2 = ImageQt(image2)
         self.qim3 = ImageQt(image3)
 
+        self.label = QLabel()
+
     def prevBtn_pressed(self):
         self.label.setPixmap(self.pixmap1)
 
@@ -282,7 +284,8 @@ def main():
     App = QApplication(sys.argv) 
     comparator = ComparatorApp()
     comparator.show()
-    sys.exit(App.exec())
+    exit_code = App.exec()
+    sys.exit(exit_code)
 
 if __name__ == '__main__': 
     main()
